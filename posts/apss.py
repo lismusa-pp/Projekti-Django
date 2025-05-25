@@ -6,3 +6,4 @@ class PostsConfig(AppConfig):
 
     def ready(self):
         import posts.signals
+
